@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Alberta Trails | Hiking Guide</title>
+
+    <meta name="description"
+        content="Explore Alberta trails with live weather updates, hiking information and outdoor adventure resources.">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <img src="logo.webp"
+                 alt="Explore Alberta Trails Logo"
+                 width="200">
+        </h1>
+    </header>
+
+    <main>
+
+        <section class="hero" role="banner">
+            <h2>Explore Alberta Trails</h2>
+            <p id="weather">Loading weather...</p>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+
+            <form id="trailForm">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+                <button type="submit">
+                    Send
+                </button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Featured Trail Video</h2>
+           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CG08YZhAhyA?si=vZ5GVyz1Z5DpqJsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Explore Alberta Trails</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
